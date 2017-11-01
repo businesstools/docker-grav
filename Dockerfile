@@ -15,4 +15,4 @@ RUN cd /var/www && \
 COPY nginx.conf /etc/nginx/sites-available/default
 COPY docker-entrypoint.sh /usr/local/bin
 
-ENTRYPOINT ["docker-entrypoint.sh"]
+# ENTRYPOINT ["docker-entrypoint.sh"]
