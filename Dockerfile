@@ -13,6 +13,3 @@ RUN cd /var/www && \
     mv grav-admin html
 
 COPY nginx.conf /etc/nginx/sites-available/default
-COPY docker-entrypoint.sh /usr/local/bin
-
-# ENTRYPOINT ["docker-entrypoint.sh"]
