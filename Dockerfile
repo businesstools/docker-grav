@@ -11,6 +11,7 @@ RUN cd /var/www && \
     unzip /tmp/grav-admin.zip && \
     rm -rf /tmp/grav-admin.zip html && \
     chown -R www-data:www-data grav-admin && \
-    mv grav-admin html
+    mv grav-admin html \
+    rm -rf html/user
 
 COPY nginx.conf /etc/nginx/sites-available/default
