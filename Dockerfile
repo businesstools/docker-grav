@@ -1,7 +1,7 @@
 FROM businesstools/nginx-php:1.7.1
 MAINTAINER Daniel Haus <daniel.haus@businesstools.de>
 
-ENV GRAV_VERSION=1.3.8
+ENV GRAV_VERSION=1.3.10
 ENV PATH="/var/www/html/bin:${PATH}"
 
 WORKDIR /var/www/html
