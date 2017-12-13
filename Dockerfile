@@ -1,4 +1,4 @@
-FROM businesstools/nginx-php:1.7.1
+FROM businesstools/nginx-php:1.7.2
 MAINTAINER Daniel Haus <daniel.haus@businesstools.de>
 
 ENV GRAV_VERSION=1.3.10
