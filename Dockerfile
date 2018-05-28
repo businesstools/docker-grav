@@ -1,4 +1,4 @@
-FROM businesstools/nginx-php:1.7.4
+FROM businesstools/nginx-php:1.8.0
 
 ENV GRAV_VERSION=1.4.5
 ENV PATH="/var/www/html/bin:${PATH}"
@@ -13,4 +13,4 @@ RUN cd /var/www && \
     mv grav-admin html && \
     rm -rf html/user
 
-COPY nginx.conf /etc/nginx/sites-available/default
+COPY nginx.conf /etc/nginx/conf.d/default.conf
