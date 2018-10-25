@@ -1,6 +1,6 @@
 FROM businesstools/nginx-php:1.8.0
 
-ENV GRAV_VERSION=1.5.1
+ENV GRAV_VERSION=1.5.3
 ENV PATH="/var/www/html/bin:${PATH}"
 
 WORKDIR /var/www/html
