@@ -1,4 +1,4 @@
-FROM businesstools/nginx-php:1.8.0
+FROM businesstools/nginx-php:1.9.0
 
 ENV GRAV_VERSION=1.5.3
 ENV PATH="/var/www/html/bin:${PATH}"
